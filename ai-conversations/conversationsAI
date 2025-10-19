@@ -1,0 +1,58 @@
+
+
+
+----------------------------------
+Tool: ChatGPT
+Date: 2025-10-19
+----------------------------------
+
+Me: How can I fetch weather data for Perth for the next 5 days?
+AI: You can use the wttr.in API. Example: `https://wttr.in/Perth?format=j1`. Then parse the JSON to get daily forecasts.
+
+Me: How do I get the max temperature from the JSON?
+AI: Use `data["weather"][0]["maxtempC"]` for the first day. Loop over `data["weather"]` for all days.
+
+Me: And what about rain data?
+AI: Each day has an `hourly` list. Sum `precipMM` values for the day to get total precipitation.
+
+----------------------------------
+Tool: ChatGPT
+Date: 2025-10-19
+----------------------------------
+
+Me: I want to plot temperature trends for Fremantle. How?
+AI: Use matplotlib. Plot max and min temperatures over the forecast dates. Use markers for clarity.
+
+Me: Should I fill between min and max temps?
+AI: Yes! `plt.fill_between(dates, min_temps, max_temps, color='lightgray', alpha=0.5)` makes it visually easier to interpret.
+
+Me: Can I combine rain and temperature in one graph?
+AI: Yes, use a twin y-axis. Plot temperature on ax1 and precipitation as bars on ax2.
+
+----------------------------------
+Tool: ChatGPT
+Date: 2025-10-19
+----------------------------------
+
+Me: How can I make my weather advisor respond to questions like "Will it rain tomorrow in Perth?"
+AI: Implement a simple NLP parser. Check for keywords like "rain", "tomorrow", and extract location from the text.
+
+Me: What if the location isn’t mentioned?
+AI: You can default to a main location, e.g., "Perth", or ask the user to input a location.
+
+Me: Can I also detect "temperature" or "wind"?
+AI: Yes, search for keywords ["temperature", "hot", "cold"] for temperature, and ["wind", "breeze"] for wind.
+
+----------------------------------
+Tool: ChatGPT
+Date: 2025-10-19
+----------------------------------
+
+Me: I want to invite collaborators to my GitHub repo with the weather project. How?
+AI: Go to your repo → Settings → Manage Access → Invite Collaborator. Enter their GitHub username or email.
+
+Me: Can I control permissions?
+AI: Yes. Options: Read, Write, or Admin. Choose based on the level of access you want to give.
+
+Me: And for Google Colab?
+AI: Open the notebook → Share → enter emails → assign Viewer, Commenter, or Editor permissions.
