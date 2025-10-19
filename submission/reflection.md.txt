@@ -1,0 +1,22 @@
+✍️ Project Reflection
+
+AI Tools Used
+I used ChatGPT to help brainstorm ideas, clarify concepts, and generate code snippets for my project. It helped me save time on troubleshooting, provided explanations for complex tasks, and suggested efficient approaches to coding challenges.
+
+Prompting Techniques
+I applied intentional prompting strategies such as:
+
+Step-by-step instructions: Asking for processes broken down into clear, sequential steps.
+
+Example-based prompts: Providing examples to get more accurate and relevant responses.
+
+Iterative refinement: Refining prompts based on the output I received to improve quality.
+
+What Worked Well?
+I’m proud of how effectively I integrated AI suggestions into my workflow. Using ChatGPT, I was able to quickly overcome obstacles and generate clean, functional code, which allowed me to focus on creativity and problem-solving rather than getting stuck on syntax or minor errors.
+
+What Would You Do Differently?
+If I had more time, I would spend additional effort testing and optimizing my project. While the core functionality works well, there are some areas where performance and efficiency could be improved with more iterations and refinement.
+
+Final Thoughts
+This project reinforced how AI tools can enhance learning and productivity when used intentionally. It also reminded me of the importance of critical thinking—AI is powerful, but human judgment is needed to guide it effectively. Overall, it was a rewarding learning experience that improved both my technical and problem-solving skills.
